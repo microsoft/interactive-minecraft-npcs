@@ -36,7 +36,11 @@ To run this prototype, you'll need the following:
 1. Run the bot: `node index.js`. To automatically re-run the bot as you make code changes, consider installing `nodemon` and running `nodemon index.js`
 1. You can see the code produced by the bot in the console window 
 
-You should now see an NPC appear that you can interact with! To type commands or messages to the NPC, press "t" to open the chat window, and type the command or message. See [this demo](https://microsoft-my.sharepoint.com/:v:/p/ryvolum/EQIL-TicrdVGhdEu5fxb1uoBIXe4kVEJzdtNlov8N1DnfA) for example commands that work.
+You should now see an NPC appear that you can interact with! To type commands or messages to the NPC, press "t" to open the chat window, and type the command or message. 
+
+## Demo Video
+
+https://user-images.githubusercontent.com/64496188/179088024-bfefd7f0-b83a-44d3-8e42-c97bb46fb051.mp4
 
 ## How it Works
 
