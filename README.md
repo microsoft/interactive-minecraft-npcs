@@ -38,7 +38,7 @@ To run this prototype, you'll need the following:
 
 You should now see an NPC appear that you can interact with! To type commands or messages to the NPC, press "t" to open the chat window, and type the command or message. 
 
-## Demo Video
+## Introductory Demo
 
 https://user-images.githubusercontent.com/64496188/179088024-bfefd7f0-b83a-44d3-8e42-c97bb46fb051.mp4
 
@@ -85,6 +85,12 @@ By default, the new world started in Minecraft (Java edition) does not have easy
 - In the Create New World window, select 'More World Options'
 - In the 'Seed for the world generator' text box, enter 6714107141548954383
 - Select 'Game Rules' and under World Updates, switch off 'Advance time of day', 'Update weather'. This will make sure that it is always day time and no rain in the newly created world.
+
+## Escape Room Demo
+
+Here is a demo of a player collaborating with the NPC to escape out of two escape rooms
+
+https://user-images.githubusercontent.com/64496188/179092236-ec6362ea-249b-4e23-95d9-8c3d94ba4560.mp4
 
 ## Contributing
 
