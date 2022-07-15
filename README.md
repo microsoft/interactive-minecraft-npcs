@@ -3,25 +3,29 @@
 This repository contains the code referred in the paper below:
 
 <a href="https://wordplay-workshop.github.io/modern/assets/pdfs/6.pdf">Craft an Iron Sword: Dynamically Generating Interactive Game Characters by Prompting Large Language Models Tuned on Code</a><br/>
-<i>In the proceedings of NAACL 2022 workshop - Wordplay: When Language Meets Games </i><br/>
-Ryan Volum, Sudha Rao, Michael Xu, Gabriel DesGarennes, Chris Brockett, Benjamin Van Durme, Olivia Deng, Akanksha Malhotra, Bill Dolan <br/>
-Microsoft Corporation <br/>
+
+```bibtex
+@inproceedings{volum2022craft,
+  title={Craft an Iron Sword: Dynamically Generating Interactive Game Characters by Prompting Large Language Models Tuned on Code},
+  author={Volum, Ryan and Rao, Sudha and Xu, Michael and DesGarennes, Gabriel A and Brockett, Chris and Van Durme, Benjamin and Deng, Olivia and Malhotra, Akanksha and Dolan, Bill},
+  booktitle={The Third Wordplay: When Language Meets Games Workshop},
+  year={2022}
+}
+```
 
 Contact Person: Sudha Rao (Sudha.Rao@microsoft.com)
 
-This repository contains prototype code that uses Codex in gaming. Codex is a code generation model that fine-tuned GPT-3 with OSS code. Here we use it to generate code and dialog in gaming contexts to explore what might be possible. 
-
 ## Getting Started
 
-Currently this repo contains code that applies Codex in Minecraft. It uses a bot Minecraft library called `mineflayer` to generate a non-player agent (NPC) and enables that NPC to turn commands into code. 
+This repository contains prototype code that applies Codex in Minecraft. Codex is a code generation model that fine-tuned GPT-3 in GitHub code. Here we use it to generate code and dialog in gaming contexts to explore what might be possible. We use a Minecraft library called `mineflayer` to generate a non-player character (NPC) and enable that NPC to turn commands into code. 
 
 ### Requirements
 
 To run this prototype, you'll need the following: 
 
-1. **Minecraft** - specifically the Java version, as the Windows version does not seem to expose LAN ports
-1. **Node.js and npm** - the prototype was tested with Node version v14.17.5, but newer versions should work
-1. **Access to the OpenAI Codex API** - this prototype specifically uses the `codex-davinci-msft` model
+1. **Minecraft** - specifically the Java version v.1.17.1
+1. **Node.js and npm** - the prototype was tested with Node version v14.17.5
+1. **Access to the OpenAI Codex API** - this prototype specifically uses the `code-davinci-002` model
 1. **git** - if you're reading this, this is probably self evident :)
 
 ### Running the prototype
