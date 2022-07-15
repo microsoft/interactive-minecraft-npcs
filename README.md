@@ -95,7 +95,7 @@ Here is a demo of a player collaborating with the NPC to escape out of two escap
 
 https://user-images.githubusercontent.com/64496188/179092236-ec6362ea-249b-4e23-95d9-8c3d94ba4560.mp4
 
-A copy of this world in Minecraft 1.17.1 is included in the repo as `workshop.zip`, to play with this locally simply unzip the contents into `%appdata%/.minecraft/saves`, and you should see it show up in your Minecraft Java Edition inside the Singleplayer menu.
+A copy of this world in Minecraft 1.17.1 is included in the repo as `escape-room.zip`, to play with this locally simply unzip the contents into `%appdata%/.minecraft/saves`, and you should see it show up in your Minecraft Java Edition inside the Singleplayer menu.
 
 ## Contributing
 
