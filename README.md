@@ -36,7 +36,6 @@ To run this prototype, you'll need the following:
 1. Grab your Codex API key from `https://beta.openai.com/account/api-keys` and add it to the `.env` file
 1. Open Minecraft and create a one player new world. Set "Allow Cheats" to true
 1. Enter the world and open settings (hitting the escape key). Select "Open to LAN", selecting "Allow Cheats" again. To avoid being killed in-game while programming, set mode to "Creative"
-1. Open the world to LAN, and copy the port number that appears as an in-game message. Add that port number to the `.env` file
 1. Run the bot: `node index.js`. To automatically re-run the bot as you make code changes, consider installing `nodemon` and running `nodemon index.js`
 1. You can see the code produced by the bot in the console window 
 
@@ -95,6 +94,8 @@ By default, the new world started in Minecraft (Java edition) does not have easy
 Here is a demo of a player collaborating with the NPC to escape out of two escape rooms
 
 https://user-images.githubusercontent.com/64496188/179092236-ec6362ea-249b-4e23-95d9-8c3d94ba4560.mp4
+
+A copy of this world in Minecraft 1.17.1 is included in the repo as `workshop.zip`, to play with this locally simply unzip the contents into `%appdata%/.minecraft/saves`, and you should see it show up in your Minecraft Java Edition inside the Singleplayer menu.
 
 ## Contributing
 
