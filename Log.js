@@ -9,25 +9,17 @@ const recordInteraction = (
   completion = "",
   autoregressive = false
 ) => {
-  let payload = {
-    username: username,
-    prompt: prompt,
-    completion: completion,
-    autoregressive: autoregressive,
-  };
+  let payload = { username, prompt, completion, autoregressive, };
   payload.EventOccurrenceTime = new Date(Date.now()).toISOString();
   let client = appInsights.defaultClient;
-  client.trackEvent({ name: name, properties: payload });
+  client.trackEvent({ name, properties: payload });
 };
 
 const recordEvent = (name, username, message = "") => {
-  let payload = {
-    username: username,
-    message: message,
-  };
+  let payload = { username, message, };
   payload.EventOccurrenceTime = new Date(Date.now()).toISOString();
   let client = appInsights.defaultClient;
-  client.trackEvent({ name: name, properties: payload });
+  client.trackEvent({ name, properties: payload });
 };
 
 const recordException = (err) => {
