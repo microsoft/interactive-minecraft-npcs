@@ -16,7 +16,7 @@ class Model {
           'Authorization': ` Bearer ${process.env.CODEX_API_KEY}`
         },
         body: JSON.stringify({
-          prompt: prompt,
+          prompt,
           max_tokens: 300,
           temperature: 0,
           stop: "//",
